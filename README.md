@@ -22,7 +22,7 @@ Aizhar777\NumToWord\NumToWordServiceProvider::class,
 ## Basic usage
 Controller
 ```php
-echo NumbersToWords::getStr($number);
+echo \NumbersToWords::getStr($number);
 ```
 Blade
 ```html
