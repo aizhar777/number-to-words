@@ -19,3 +19,12 @@ Aizhar777\NumToWord\NumToWordServiceProvider::class,
 ```php
 'Cell' => Aizhar777\NumToWord\Facades\NumberToWordsFacade::class,
 ```
+## Basic usage
+Controller
+```php
+echo NumbersToWords::getStr($number);
+```
+Blade
+```html
+<p> @numToWords($number)</p>
+```
