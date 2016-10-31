@@ -8,7 +8,7 @@ composer require aizhar777/numbers-to-words
 ```
 Publish config
 ```
-php artisan vendor:publish --provider="aizhar777\numbers-to-words\NumToWordServiceProvider" --tag="config"
+php artisan vendor:publish
 ```
 
 #### Add Provider
