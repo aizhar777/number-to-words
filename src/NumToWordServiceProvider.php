@@ -37,7 +37,7 @@ class NumToWordServiceProvider extends ServiceProvider
     public function regBladeDer()
     {
         \Blade::directive('numToWords', function($expression) {
-            return '<?php echo NumbersToWords::getStr(' . $expression . '); ?>';
+            return '<?php echo \NumbersToWords::getStr(' . $expression . '); ?>';
         });
     }
 

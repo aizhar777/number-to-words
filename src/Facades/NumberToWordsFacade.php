@@ -1,6 +1,6 @@
 <?php
 
-namespace Aizhar777\Facades;
+namespace Aizhar777\NumToWord\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

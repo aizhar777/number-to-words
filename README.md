@@ -17,7 +17,7 @@ Aizhar777\NumToWord\NumToWordServiceProvider::class,
 ```
 #### Add Facade
 ```php
-'Cell' => Aizhar777\NumToWord\Facades\NumberToWordsFacade::class,
+'NumbersToWords' => Aizhar777\NumToWord\Facades\NumberToWordsFacade::class,
 ```
 ## Basic usage
 Controller
