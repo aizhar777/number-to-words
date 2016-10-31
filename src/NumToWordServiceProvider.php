@@ -27,8 +27,8 @@ class NumToWordServiceProvider extends ServiceProvider
         });
 
         $this->publishes([
-            __DIR__.'/config/numbers.php' => config_path('numbers.php'),
-        ]);
+            __DIR__.'/config/numbers.php' => config_path('numbers.php')
+        ], 'config');
     }
 
     /**
